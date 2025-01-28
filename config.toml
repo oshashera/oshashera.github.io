@@ -1,0 +1,11 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Test de cv'
+theme = "academic-cv"
+
+[module]
+[[module.imports]]
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
+
+[[module.imports]]
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
